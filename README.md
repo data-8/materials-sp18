@@ -2,7 +2,7 @@ Data 8 Public Materials for Spring 2018
 =======
 
 This repo contains the publicly available materials that are used in the Data 8
-Foundations of Data Science course during the Fall 2017 semester.
+Foundations of Data Science course during the Spring 2018 semester.
 
 This includes: homeworks, labs, and notebooks used in lecture.
 
