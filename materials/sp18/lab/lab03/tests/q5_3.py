@@ -11,8 +11,8 @@ test = {
           >>> really_highly_rated.num_rows == 29
           True
           >>> print(really_highly_rated.sort(0).take([17]))
-          Votes  | Rating | Title           | Year | Decade
-          895411 | 8.6    | Se7en           | 1995 | 1990
+          Votes  | Rating | Title | Year | Decade
+          895411 | 8.6    | Se7en | 1995 | 1990
           """,
           'hidden': False,
           'locked': False
