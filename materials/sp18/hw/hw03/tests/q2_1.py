@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> unemployment.take(0)
+          >>> unemployment.select('Date', 'NEI', 'NEI-PTER').take(0)
           Date       | NEI     | NEI-PTER
           1994-01-01 | 10.0974 | 11.172
           """,
