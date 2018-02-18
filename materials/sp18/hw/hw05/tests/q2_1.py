@@ -6,8 +6,10 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> ten_sixes in [1,2,3]
-          True
+          >>> hand.num_rows
+          5
+          >>> sorted(hand.labels)
+          ['Rank', 'Suit']
           """,
           'hidden': False,
           'locked': False

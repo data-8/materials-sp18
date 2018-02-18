@@ -6,8 +6,16 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> lottery in [1,2,3]
-          True
+          >>> hand_of_4.num_rows
+          4
+          >>> sorted(hand_of_4.labels)
+          ['Rank', 'Suit']
+          >>> hand_of_4.group("Suit").sort("Suit")
+          Suit | count
+          ♠︎   | 1
+          ♣︎   | 1
+          ♥︎   | 1
+          ♦︎   | 1
           """,
           'hidden': False,
           'locked': False
