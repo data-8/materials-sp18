@@ -12,14 +12,14 @@ test = {
           True
           >>> sum(model_proportions) == 1
           True
-          >>> type(simulated_proportion) == float
+          >>> type(simulation_proportion) == float
           True
           >>> 0 <= one_test_statistic <= 20
           True
           """,
           'hidden': False,
           'locked': False
-        },
+        }
       ],
       'scored': True,
       'setup': '',
