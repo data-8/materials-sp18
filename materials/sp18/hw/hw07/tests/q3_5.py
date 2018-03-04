@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 0 <=  approximate_probability_of_false  <= 1
+          >>> len(test_results) == 300
           True
           """,
           'hidden': False,
