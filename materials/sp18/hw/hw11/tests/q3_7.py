@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> # Make sure two_minutes_wait is a single value
-          >>> type(two_minutes_wait) == float
+          >>> isinstance(two_minutes_wait, float)
           True
           """,
           'hidden': False,
